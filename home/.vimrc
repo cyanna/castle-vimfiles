@@ -35,7 +35,7 @@ set backupdir=~/.vim/swap
 set directory=~/.vim/swap
 
 " show line numbers
-set number
+set relativenumber
 " changed line number color
 :highlight LineNr ctermfg=grey
 
@@ -98,6 +98,16 @@ let mapleader = ","
 :map <f12> :set nonumber<CR>
 :map <C-l> :wincmd l<CR>
 :map <C-h> :wincmd h<CR>
+
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
 
 " git blame visual selection
 vmap <Leader>b :<C-U>!git blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
