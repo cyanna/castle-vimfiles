@@ -11,9 +11,9 @@ set nocompatible
 "colors wombat256
 "colors tir_black
 if has('gui_running')
-  colors solarized
+  colors calmar256-dark
 else
-  colors kolor
+  colors calmar256-dark
 endif
 syntax on
 set cursorline
@@ -21,7 +21,7 @@ set cursorline
 "highlight column 80 and 120
 "set colorcolumn=80,120
 "highlight ColorColumn ctermbg=235 guibg=#2c2d27
-highlight ColorColumn ctermbg=0 guibg=#000
+highlight ColorColumn ctermbg=233 guibg=#2c2d27
 let &colorcolumn="80,".join(range(120,999),",")
 
 " smart indent for easier code formatting
@@ -35,7 +35,7 @@ set backupdir=~/.vim/swap
 set directory=~/.vim/swap
 
 " show line numbers
-set relativenumber
+set number
 " changed line number color
 :highlight LineNr ctermfg=grey
 
@@ -96,6 +96,8 @@ let mapleader = ","
 :map tm9 :tabm 9<CR>
 :map <f11> :set number<CR>
 :map <f12> :set nonumber<CR>
+:map <C-j> :wincmd j<CR>
+:map <C-k> :wincmd k<CR>
 :map <C-l> :wincmd l<CR>
 :map <C-h> :wincmd h<CR>
 
