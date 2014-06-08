@@ -6,6 +6,7 @@ filetype plugin indent on
 " disable vi compatibility
 set nocompatible
 
+set t_Co=256
 " theme stuff
 "colors desert256
 "colors wombat256
