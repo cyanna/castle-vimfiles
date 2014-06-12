@@ -107,6 +107,13 @@ let mapleader = ","
 :map <M-l> :10winc ><CR>
 :map <M-=> :winc =<CR>
 
+" vim-rails mappings
+:cmap rs Rails s
+:cmap rc Rails c
+:cmap ec Econtroller 
+:cmap em Emodel 
+:cmap ev Eview 
+
 function! NumberToggle()
   if(&relativenumber == 1)
     set number
