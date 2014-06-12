@@ -82,9 +82,9 @@ let mapleader = ","
 :imap \\ <C-x><C-o>
 :map qq :NERDTreeToggle<CR>
 :map ff ZZ
-:map <A-l> :tabn<CR>
-:map <A-h> :tabp<CR>
-:map <A-n> :tabnew<CR>
+":map <A-l> :tabn<CR>
+":map <A-h> :tabp<CR>
+":map <A-n> :tabnew<CR>
 :map tm0 :tabm 0<CR>
 :map tm1 :tabm 1<CR>
 :map tm2 :tabm 2<CR>
@@ -101,6 +101,11 @@ let mapleader = ","
 :map <C-k> :wincmd k<CR>
 :map <C-l> :wincmd l<CR>
 :map <C-h> :wincmd h<CR>
+:map <M-j> :10winc +<CR>
+:map <M-k> :10winc -<CR>
+:map <M-h> :10winc <<CR>
+:map <M-l> :10winc ><CR>
+:map <M-=> :winc =<CR>
 
 function! NumberToggle()
   if(&relativenumber == 1)
