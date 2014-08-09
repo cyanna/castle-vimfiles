@@ -25,6 +25,11 @@ set cursorline
 highlight ColorColumn ctermbg=233 guibg=#2c2d27
 let &colorcolumn="80,".join(range(120,999),",")
 
+" GUI - hide toolbar and scrollbars
+set guioptions-=r
+set guioptions-=L
+set guioptions-=T
+
 " smart indent for easier code formatting
 set smartindent
 
