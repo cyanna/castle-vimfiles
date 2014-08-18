@@ -131,3 +131,6 @@ nnoremap <C-n> :call NumberToggle()<cr>
 
 " git blame visual selection
 vmap <Leader>b :<C-U>!git blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
+
+" turn off auto comments
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
