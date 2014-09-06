@@ -19,6 +19,8 @@ endif
 syntax on
 set cursorline
 
+set guifont=Envy\ Code\ R:h12
+
 "highlight column 80 and 120
 "set colorcolumn=80,120
 "highlight ColorColumn ctermbg=235 guibg=#2c2d27
