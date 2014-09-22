@@ -1,51 +1,51 @@
 [submodule "home/.vim/bundle/vim-fugitive"]
 	path = home/.vim/bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "home/.vim/bundle/vim-rails"]
 	path = home/.vim/bundle/vim-rails
-	url = git@github.com:tpope/vim-rails.git
+	url = https://github.com/tpope/vim-rails.git
 [submodule "home/.vim/bundle/vim-haml"]
 	path = home/.vim/bundle/vim-haml
-	url = git@github.com:tpope/vim-haml.git
+	url = https://github.com/tpope/vim-haml.git
 [submodule "home/.vim/bundle/vim-bundler"]
 	path = home/.vim/bundle/vim-bundler
-	url = git@github.com:tpope/vim-bundler.git
+	url = https://github.com/tpope/vim-bundler.git
 [submodule "home/.vim/bundle/vim-dispatch"]
 	path = home/.vim/bundle/vim-dispatch
-	url = git@github.com:tpope/vim-dispatch.git
+	url = https://github.com/tpope/vim-dispatch.git
 [submodule "home/.vim/bundle/vim-heroku"]
 	path = home/.vim/bundle/vim-heroku
-	url = git@github.com:tpope/vim-heroku.git
+	url = https://github.com/tpope/vim-heroku.git
 [submodule "home/.vim/bundle/vim-rbenv"]
 	path = home/.vim/bundle/vim-rbenv
-	url = git@github.com:tpope/vim-rbenv.git
+	url = https://github.com/tpope/vim-rbenv.git
 [submodule "home/.vim/bundle/vim-unimpaired"]
 	path = home/.vim/bundle/vim-unimpaired
-	url = git@github.com:tpope/vim-unimpaired.git
+	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "home/.vim/bundle/vim-commentary"]
 	path = home/.vim/bundle/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "home/.vim/bundle/vim-coffee-script"]
 	path = home/.vim/bundle/vim-coffee-script
-	url = git@github.com:kchmck/vim-coffee-script.git
+	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "home/.vim/bundle/ctrlp"]
 	path = home/.vim/bundle/ctrlp
-	url = git@github.com:SandStormIT/vim-ctrlp.git
+	url = https://github.com/kien/ctrlp.vim.git
 [submodule "home/.vim/bundle/vim-mustache-handlebars"]
 	path = home/.vim/bundle/vim-mustache-handlebars
-	url = git@github.com:mustache/vim-mustache-handlebars.git
+	url = https://github.com/mustache/vim-mustache-handlebars.git
 [submodule "home/.vim/bundle/supertab"]
 	path = home/.vim/bundle/supertab
-	url = git@github.com:ervandew/supertab.git
+	url = https://github.com/ervandew/supertab.git
 [submodule "home/.vim/bundle/vim-jade"]
 	path = home/.vim/bundle/vim-jade
-	url = https://github.com/digitaltoad/vim-jade
+	url = https///github.com/digitaltoad/vim-jade
 [submodule "home/.vim/bundle/vim-markdown"]
 	path = home/.vim/bundle/vim-markdown
-	url = git@github.com:hallison/vim-markdown.git
+	url = https://github.com/hallison/vim-markdown.git
 [submodule "home/.vim/bundle/vim-slim"]
 	path = home/.vim/bundle/vim-slim
-	url = git@github.com:slim-template/vim-slim.git
+	url = https://github.com/slim-template/vim-slim.git
