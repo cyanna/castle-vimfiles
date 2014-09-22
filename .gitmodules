@@ -42,7 +42,7 @@
 	url = https://github.com/ervandew/supertab.git
 [submodule "home/.vim/bundle/vim-jade"]
 	path = home/.vim/bundle/vim-jade
-	url = https///github.com/digitaltoad/vim-jade
+	url = https://github.com/digitaltoad/vim-jade
 [submodule "home/.vim/bundle/vim-markdown"]
 	path = home/.vim/bundle/vim-markdown
 	url = https://github.com/hallison/vim-markdown.git
