@@ -33,7 +33,7 @@
 	url = git@github.com:scrooloose/nerdtree.git
 [submodule "home/.vim/bundle/ctrlp"]
 	path = home/.vim/bundle/ctrlp
-	url = git@github.com:kien/ctrlp.vim.git
+	url = git@github.com:SandStormIT/ctrlp.vim.git
 [submodule "home/.vim/bundle/vim-mustache-handlebars"]
 	path = home/.vim/bundle/vim-mustache-handlebars
 	url = git@github.com:mustache/vim-mustache-handlebars.git
